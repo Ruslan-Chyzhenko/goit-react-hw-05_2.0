@@ -6,7 +6,7 @@ const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };
 
-export const AppBar = () => {
+const AppBar = () => {
   return (
     <header className={css.header}>
       <p className={css.logo}>
@@ -30,3 +30,5 @@ export const AppBar = () => {
     </header>
   );
 };
+
+export default AppBar;

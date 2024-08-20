@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import css from "./ProductList.module.css";
 
-export const ProductList = ({ products }) => {
+const ProductList = ({ products }) => {
   const location = useLocation();
 
   return (
@@ -17,3 +17,5 @@ export const ProductList = ({ products }) => {
     </div>
   );
 };
+
+export default ProductList;
